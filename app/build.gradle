@@ -38,8 +38,16 @@ android {
     viewBinding {
         enabled = true
     }
+
     buildFeatures {
         viewBinding true
+    }
+
+    android.applicationVariants.all {
+        variant -> variant.outputs.all{
+            def appName = "eMovie"
+            outputFileName = appName + ".apk"
+        }
     }
 }
 
