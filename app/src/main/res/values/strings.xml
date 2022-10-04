@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">eMovie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tittle_app_toolbar">eMovie</string>
+
+    <string name="header_title_section_upcomming">Próximos estrenos</string>
+    <string name="header_title_section_top_rated">Tendencia</string>
+    <string name="header_title_recomended_for_you">Recomendados para ti</string>
+
+    <string name="button_text_ver_trailer">Ver trailer</string>
+
+    <string name="error_data_video">No es posible mostrar el trailer en este momento. Verifica tu conexión a internet</string>
+
+</resources>

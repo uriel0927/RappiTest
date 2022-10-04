@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EMovie" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="header_sections_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="details_tv_background_style">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/background_gray_tv</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="details_tv_background_yellow_style">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/background_yellow_tv</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
